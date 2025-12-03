@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * Copyright (C) 2025 Carlos Garcia Gomez <carlos@facturascripts.com>
+ * @author Daniel Fernández Giménez <hola@danielfg.es>
+-->
+<view>
+    <columns>
+        <column name="sent-verifactu" display="center" order="295" overwrite="true">
+            <widget type="checkbox" fieldname="vf_sent"/>
+        </column>
+    </columns>
+    <!--<rows>
+        <row type="status" overwrite="true">
+            <option color="dark" title="not-sent-verifactu" fieldname="vf_sent">0</option>
+            <option color="success" title="paid" fieldname="pagada">1</option>
+            <option color="danger" fieldname="vencida" title="expired-receipt">1</option>
+            <option color="warning" title="non-editable-document" fieldname="editable">0</option>
+            <option color="info" title="email-sent" fieldname="femail">notnull:</option>
+            <option color="secondary" title="invoice-without-acc-entry" fieldname="idasiento">null:</option>
+        </row>
+    </rows>-->
+</view>
